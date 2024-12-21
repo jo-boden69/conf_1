@@ -1,0 +1,15 @@
+<config>
+    <comment>
+        Настройки сети
+    </comment>
+
+    <const name="bandwidthlimit" value="1000"/>
+    <const name="connectiontimeout" value="300"/>
+    
+    <dictionary>
+        <entry name="protocol" value="123"/>
+        <entry name="port" value="8080"/>
+    </dictionary>
+    
+    <expr value="|max bandwidthlimit connectiontimeout 500|"/>
+</config>

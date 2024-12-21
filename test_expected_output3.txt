@@ -1,0 +1,11 @@
+{{!--
+Параметры автомобиля
+--}}
+(def fuelcapacity 75)
+(def enginepower 60)
+$[
+  transmissiontype : 2,
+  interiormaterial : 5,
+]
+{{!-- |mod fuelcapacity 10| : 5 --}}
+{{!-- |max enginepower 50 30| : 60 --}}

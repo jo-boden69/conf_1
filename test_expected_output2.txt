@@ -1,0 +1,12 @@
+{{!--
+Финансовые параметры
+--}}
+(def basesalary 100)
+(def bonuspercentage 20)
+$[
+  currency : 1,
+  taxrate : 5,
+  maxbonus : 150,
+]
+{{!-- |* basesalary 2| : 200 --}}
+{{!-- |+ basesalary 10| : 110 --}}

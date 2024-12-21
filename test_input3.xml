@@ -1,0 +1,16 @@
+<config>
+    <comment>
+        Параметры автомобиля
+    </comment>
+
+    <const name="fuelcapacity" value="75"/>
+    <const name="enginepower" value="60"/>
+    
+    <dictionary>
+        <entry name="transmissiontype" value="2"/>
+        <entry name="interiormaterial" value="5"/>
+    </dictionary>
+    
+    <expr value="|mod fuelcapacity 10|"/>
+    <expr value="|max enginepower 50 30|"/>
+</config>
